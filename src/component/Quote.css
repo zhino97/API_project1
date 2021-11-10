@@ -1,0 +1,102 @@
+.qouteBox {
+  position: absolute;
+  background-color: #6c5b7b;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  color: #f1b7c8;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.quote {
+  margin: 1em;
+}
+.author {
+  float: right;
+  margin: 1em;
+}
+/* /////////////// */
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa");
+
+:root {
+  --color1: #d45757;
+  --color2: #464646;
+  --color3: rgb(167, 167, 167);
+}
+
+* {
+  font-family: "Comfortaa", sans-serif;
+}
+::selection {
+  background-color: var(--color2);
+  color: #ffffff;
+}
+.Nav {
+  position: fixed !important;
+  width: 100%;
+  flex-flow: column;
+  background-color: rgb(221, 77, 77) !important;
+  color: #ffffff !important;
+}
+
+.iDiv-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+li {
+  margin-right: 20px;
+}
+
+.iQuote {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.iContent {
+  height: 200px;
+}
+.iButton {
+  border: 0px;
+  background-color: var(--color1);
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.btn-delete {
+  background-color: rgb(241, 72, 72);
+  color: white;
+  border: 0ch;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.btn-done {
+  background-color: rgb(71, 135, 255);
+  color: white;
+  border: 0ch;
+  border-radius: 5px;
+  margin: 5px;
+  height: 35px;
+}
+h3 {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 5px;
+  height: 35px;
+  text-align: center;
+  min-width: 200px;
+}
